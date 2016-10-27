@@ -14,7 +14,7 @@ angular.module('myApp.view2', ['ngRoute'])
             method: 'GET',
             url: 'api/demouser'
           }).then(function successCallback(res) {
-            $scope.data = res.data.message;
+            $scope.data = res.data.fotballclubs;
           }, function errorCallback(res) {
             $scope.error = res.status + ": "+ res.data.statusText;
           });

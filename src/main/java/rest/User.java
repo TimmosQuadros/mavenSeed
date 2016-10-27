@@ -13,7 +13,7 @@ public class User {
   @GET
   @Produces(MediaType.APPLICATION_JSON)
   public String getSomething(){
-    return "{\"message\" : \"REST call accesible by only authenticated USERS\"}"; 
+    return "{\"fotballclubs\": [{\"name\":\"Liverpool\", \"url\":\"http://www.liverpoolfc.com\"},{\"name\":\"Manchester United\",\"url\" : \"http://www.manutd.com/\"}]}";
   }
  
 }

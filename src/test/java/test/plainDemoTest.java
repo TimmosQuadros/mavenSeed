@@ -22,9 +22,9 @@ public class plainDemoTest {
   public void setUp() {
   }
   
-  @Test
-  public void dummyTest(){
-    assertTrue(true);  //Really "nothing" to test in the initial version of the seed
-  }
+//  @Test
+//  public void dummyTest(){
+//    assertTrue(true);  //Really "nothing" to test in the initial version of the seed
+//  }
   
 }
